@@ -1,0 +1,156 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.title{
+    text-align: center;
+    font-weight: bold;
+    color: #dc3545;;
+    margin-top: 50px;
+}
+.row{
+    background-color: #dee2e6;
+    box-shadow: 10px 10px 5px 5px  lightslategray;
+    width: 1000px;
+    height: 50px;
+    margin-top:100px;
+    margin-left: 150px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.Current{
+    margin-left: 20px;
+    font-weight:600;
+    font-size: 20px;
+}
+.btn-light {
+    margin-left: -495px;
+    font-size: 15px;
+}
+.btn-danger{
+    margin-left: -1273px;
+    font-size: 10.5px;
+}
+.btn-primary{
+    position: absolute;
+    width: 130px;
+    font-size: 10.5px;
+    margin-left: -1190px;
+    margin-top: -30px;
+}
+.container2{
+    width: 1000px;
+    margin-left: 150px;
+    margin-top: 40px;
+}
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+  th {
+    border: 1px solid #dddddd;
+    border: top 1px;
+    border-left: none;
+    border-right: none;
+    text-align: center;
+    padding: 8px;
+
+  }
+  td{
+    text-align: center;
+    padding: 8px;
+
+  }
+  
+  tr:nth-child(even) {
+    background-color: #dddddd;
+  }
+  
+  #edit{
+    position: absolute;
+    margin-left: -15px;
+    margin-top: 0px;
+    font-size: 10px;
+    width: 35px;
+  }
+  #trash{
+    margin-left: 12px;
+    width: 35px;
+    height: 29px;
+}
+/* Modal Background */
+.modal {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  left: 0;
+  top: 0;
+  overflow: auto; /* Enable scroll if needed */
+}
+
+/* Modal Content/Box */
+.modal-content {
+  background-color: #fefefe;
+  margin: 15% auto; 
+  padding: 20px;
+  border: 1px solid #888;
+  width: 50%;  
+}
+
+/* Close Button */
+.close {
+  margin-left: 566px;
+  margin-top: -20px;
+    color: #0e0d0d;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+  color: black;
+  text-decoration: none;
+  cursor: pointer;
+}
+.save{
+  margin-left: 1820px;
+}
+.name{
+  margin-left: 67px;
+}
+.input1{
+  margin-left: 22px;;
+}
+.email{
+  margin-left: 20px;
+  margin-top: 10px;
+}
+.input2{
+  margin-left: 73px;
+}
+.Password{
+  margin-left: 40px;
+  margin-top: 10px;
+
+}
+.input3{
+  margin-left: 28px;}
+
+.mobile{
+  margin-left: 40px;
+  margin-top: 10px;
+
+}
+.input4{
+  margin-left: 45px;
+}
+.btns{
+  margin-left: 490px;
+}
+.btns.name{
+  width: 313px;
+}
